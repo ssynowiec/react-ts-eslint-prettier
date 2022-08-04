@@ -51,6 +51,10 @@ npm install eslint-config-airbnb-typescript --save-dev
 + parserOptions: {
 +   project: './tsconfig.json'
 + }
+  "rules": {
++   "react/react-in-jsx-scope": "off",
++   "import/prefer-default-export": "off"
+  }
 }
 ```
 
@@ -73,8 +77,7 @@ https://prettier.io/docs/en/install.html
 https://github.com/prettier/eslint-plugin-prettier  
 ```
 npm install --save-dev --save-exact prettier
-npm install --save-dev eslint-plugin-prettier
-npm install --save-dev eslint-config-prettier
+npm install --save-dev eslint-plugin-prettier eslint-config-prettier
 ```
 .prettierrc
 
