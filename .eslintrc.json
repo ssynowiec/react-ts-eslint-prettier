@@ -6,7 +6,8 @@
     "extends": [
         "plugin:react/recommended",
         "airbnb",
-        "airbnb-typescript"
+        "airbnb-typescript",
+        "plugin:prettier/recommended"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -17,10 +18,11 @@
         "sourceType": "module",
         "project": "tsconfig.json"
     },
-    "plugins": [
-        "react",
-        "@typescript-eslint"
-    ],
+"plugins": [
+    "react",
+    "@typescript-eslint",
+    "prettier"
+],
     "rules": {
         "react/react-in-jsx-scope": "off",
         "import/prefer-default-export": "off"
