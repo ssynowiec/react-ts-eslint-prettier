@@ -2,7 +2,9 @@
 
 boilerplate
 
-# vite 
+## how it was made
+
+### vite 
 
 https://vitejs.dev/guide/#scaffolding-your-first-vite-project
 
@@ -13,7 +15,7 @@ npm install
 git init .
 ```
 
-# eslint
+### eslint
 
 https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint  
 https://eslint.org/docs/latest/user-guide/getting-started  
@@ -70,7 +72,7 @@ package.json
 },
 ```
 
-# prettier
+### prettier
 
 https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode  
 https://prettier.io/docs/en/install.html  
@@ -109,6 +111,8 @@ npm install --save-dev eslint-plugin-prettier eslint-config-prettier
 +   "prettier"
 ],
 ```
+
+### vscode
 
 settings.json
 
