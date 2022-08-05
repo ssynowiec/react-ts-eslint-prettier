@@ -47,11 +47,11 @@ npm install eslint-config-airbnb-typescript --save-dev
 ```
 {
   extends: [
-    'airbnb', 
-+   'airbnb-typescript'
+    "airbnb", 
++   "airbnb-typescript"
   ],
 + parserOptions: {
-+   project: './tsconfig.json'
++   "project": "./tsconfig.json"
 + }
   "rules": {
 +   "react/react-in-jsx-scope": "off",
